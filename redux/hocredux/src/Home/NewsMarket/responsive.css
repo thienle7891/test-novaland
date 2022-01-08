@@ -1,0 +1,106 @@
+
+@media (min-width: 1024px) {
+    .newsListActive p{
+        margin: 6px;
+        height: 36px;
+        display: block;
+        display: -webkit-box;
+        --webkit-box-orient: vertical;
+        --webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .inforMarket {
+        padding-top: 8px ;
+        
+    }
+    .inforMarketHeader span {
+        padding: 6px 8px;
+        margin-right: 2px;
+        font-size: 8px;
+    }
+    .newsListActive {
+        margin: 0px;
+    }
+    .newsListActive h3{
+        font-size: 8px;
+    }
+   
+    .newsListActive h2 {
+        margin: 4px;
+        font-size: 10px;
+    
+    }
+    .newsListActive p{
+        margin: 6px;
+        height: 30px;
+        display: block;
+        display: -webkit-box;
+        --webkit-box-orient: vertical;
+        --webkit-line-clamp: 2;
+        overflow: hidden;
+        font-size: 10px
+    }
+    
+    .btnShowAll {
+        margin: 8px;
+        font-size: 10px;
+    }
+    .btnShowAll h3 {
+        margin: 0
+    }
+   
+    .btnShowAll i{
+        margin-left: 6px;
+    }
+}
+@media (max-width: 740px) {
+    .inforMarket {
+        padding-top: 0px ;
+    }
+    .inforMarketHeader span {
+        margin-right: 2px;
+        font-size: 8px;
+        padding: 4px 6px;
+
+    }
+    .newsListActive {
+        margin: 0px;
+    }
+    .newsListActive h3{
+        font-size: 7px;
+    }
+    .newsListActive a{
+        font-size: 8px;
+    }
+    .newsListActive h2 {
+        margin: 4px;
+        font-size: 10px;
+    
+    }
+    .newsListActive p{
+        margin: 6px;
+        height: 30px;
+        display: block;
+        display: -webkit-box;
+        --webkit-box-orient: vertical;
+        --webkit-line-clamp: 2;
+        overflow: hidden;
+        font-size: 10px
+    }
+    
+    .btnShowAll {
+        margin: 8px;
+        font-size: 8px;
+    }
+    .btnShowAll h3 {
+        margin: 0
+    }
+   
+    .btnShowAll i{
+        margin-left: 6px;
+    }
+    
+}

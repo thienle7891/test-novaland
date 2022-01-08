@@ -1,0 +1,30 @@
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .navsItem {
+        background-color: #fff;
+        z-index: 28;
+        right: 0;
+        transform-origin: top right;
+    }
+    .navsItem li{
+        width: 100%;
+    }
+   
+}
+@media (max-width: 740px) {
+    .navsItem {
+        background-color: #fff;
+        z-index: 28;
+        right: 0;
+        transform-origin: top right;
+
+    }
+    .navsItem li{
+        width: 100%;
+    }
+    
+}

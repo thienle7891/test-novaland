@@ -1,0 +1,26 @@
+
+.navsItem {
+    position: absolute;
+    list-style: none;
+    top: 37px;
+    background-color: #fff;
+    padding: 0;
+    left: 0;
+
+    width: 250px;
+    transform: scale(0);
+    transform-origin: top left;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 4px 10px 6px #888888;
+    z-index: 100;
+}
+.navsItem li{
+    padding: 6px 6px;
+    color: var(--bs-gray-800);
+    font-size: 12px;
+    border-bottom: 1px solid rgb(93, 107, 142);
+}
+.navsItem li:hover{
+    color: rgb(45, 179, 75);
+    border-color: rgb(45, 179, 75);
+}

@@ -1,0 +1,74 @@
+
+.inforMarket {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding-top: 8px ;
+    position: relative;
+    
+}
+.inforMarketHeader {
+}
+.inforMarketHeader span {
+    padding: 8px 16px;
+    margin-right: 2px;
+    background-color: #d9d9d9;
+    font-weight: 600;
+    color: rgb(93, 107, 142);
+    border-top: 2px solid #d9d9d9;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.inforMarketHeader span.active {
+    color: rgb(45, 179, 75);
+    background-color: #fff;
+    border-top: 2px solid rgb(45, 179, 75);
+    border-right: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+
+}
+
+.newsListActive {
+    margin: 12px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.newsListActive h3{
+    font-size: 12px;
+    margin: 4px;
+}
+.newsListActive a{
+    color: #000;
+    text-decoration: none;
+    font-size: 10px;
+}
+.newsListActive h2 {
+    margin: 4px
+
+}
+.newsListActive a:hover{
+    color: rgb(45, 179, 75);
+    cursor: pointer;
+}
+.newsListActive i{
+    margin: 0 2px;
+}
+.btnShowAll {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: calc(100% - 150px);
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+.btnShowAll:hover {
+    color: rgb(45, 179, 75)
+}
+.btnShowAll h3:hover{
+    transition: all 0.2s ease-in-out;
+    transform: translateX(-10px);
+    cursor: pointer;
+}
+.btnShowAll i{
+    margin-left: 12px;
+}

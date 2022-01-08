@@ -1,0 +1,46 @@
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .inforTimes {
+        font-size: 10px;
+    }
+    
+    .inforTitle h2 {
+        margin: 0 6px ;
+        font-size: 12px;
+    }
+   
+    /* .inforContent i{
+        margin: 6px;
+    } */
+    .inforContent h4{
+        margin: 6px;
+        height: 18px;
+        font-size: 12px;
+        font-weight: 300
+    }
+}
+@media (max-width: 740px) {
+    .inforTimes {
+        font-size: 10px;
+    }
+    
+    .inforTitle h2 {
+        margin: 0 6px ;
+        font-size: 10px;
+    }
+   
+    /* .inforContent i{
+        margin: 6px;
+    } */
+    .inforContent h4{
+        margin: 6px;
+        height: 18px;
+        font-size: 12px;
+        font-weight: 300
+    }
+    
+}

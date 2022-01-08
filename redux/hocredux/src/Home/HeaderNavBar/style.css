@@ -1,0 +1,70 @@
+
+.headerNav {
+    display: flex;
+    list-style: none;
+    margin-bottom: 6px;
+    align-items: center;
+    margin-top: 40px;
+}
+.headerNavLi {
+    
+    padding: 8px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(93, 107, 142);
+    position: relative;
+   
+    
+}
+.headerNavLi h4{
+    margin-top: 0;
+    margin-bottom: 0 
+}
+.navItemLine {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid rgb(45, 179, 75);
+}
+.headerNavLi:hover {
+    cursor: pointer;
+    color: rgb(45, 179, 75)
+}
+.headerNavLi:hover .navsItem{
+    cursor: pointer;
+    color: rgb(45, 179, 75);
+    transform: scale(1)
+}
+.headerNavLi:hover .navItemLine {
+    cursor: pointer;
+    transform: scale(1)
+}
+.navSearch {
+    margin-left: 8px;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(148, 232, 166);
+
+}
+.headerNav i{
+    margin: auto;
+}
+.navSearch:hover {
+    border-color: rgb(45, 179, 75) ;
+    color: rgb(45, 179, 75);
+    cursor: pointer;
+}
+.rightIcon {
+    display: none;
+}

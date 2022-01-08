@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .headerNav {
+        flex-direction: column;
+        padding-left: 10px;
+        align-items: flex-start;
+    }
+    .headerNavLi {
+    
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .navSearch.hideSearch {
+        display: none;
+    }
+    .rightIcon {
+        display: block;
+    }
+   
+}
+
+@media (max-width: 740px) {
+    .headerNav {
+        flex-direction: column;
+        padding-left: 10px;
+        align-items: flex-start;
+    }
+    .headerNavLi {
+    
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .navSearch.hideSearch {
+        display: none;
+    }
+    .rightIcon {
+        display: block;
+    }
+    
+}
+
+
+

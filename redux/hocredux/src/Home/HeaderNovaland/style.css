@@ -1,0 +1,60 @@
+
+.headerNovaland {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff
+}
+.logoImage {
+    width: 120px;
+}
+.logoImage img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.headerContent {
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+}
+.closeIcon {
+    display: none;
+}
+.numberPhone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.numberPhone h3{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: rgb(45, 179, 75);
+}
+.numberPhone h4{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: rgb(93, 107, 142)
+
+
+}
+.barIcon {
+    background-color: rgb(45, 179, 75);
+    padding: 8px;
+    display: none;
+    /* z-index: 1; */
+    margin-right: 12px;
+
+}
+.barIcon i {
+    font-size: 14px;
+    margin: auto;
+    color: #fff;
+}
+.closeIcon {}

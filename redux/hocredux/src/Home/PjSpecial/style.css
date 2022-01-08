@@ -1,0 +1,41 @@
+
+.pjSpecial {
+    background-color: #fff;
+    line-height: 1
+}
+.pjSpecialTitle {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.pjSpecialTitle h2{
+    margin: auto;
+    font-size: 30px;
+}
+.pjSpecialItem {
+    padding: 0 1px;
+
+}
+.pjSpecialImg {
+    width: 100%;
+    position: relative;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.pjSpecialImg:hover {
+    opacity: 1;
+}
+.pjSpecialImg img{
+    width: 100%;
+}
+.pjSpecialImg h3{
+    position: absolute;
+    z-index: 30;
+    bottom: 0;
+    left: 20%;
+    font-size: 18px;
+    color: #fff;
+}
+.pjSpecialImg:hover.pjSpecialImg h3{
+    color: rgb(45, 179, 75)
+}
