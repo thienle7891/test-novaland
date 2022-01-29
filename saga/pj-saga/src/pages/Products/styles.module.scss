@@ -1,0 +1,80 @@
+
+
+.root {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    .titleBlock {
+        display: flex;
+        h1 {
+            margin: auto
+        }
+
+    }
+    .filter {
+        display: flex;
+        margin: auto;
+        .filterBlock {
+            margin: auto;
+            .btnFilter {
+                margin: 0 6px;
+                transition: all 0.3s ease;
+                &:hover {
+                    transform: translateY(-5px)
+                }
+            }
+            .btnFilter.active {
+                background-color: rgb(37, 37, 37);
+                color:#fff
+            }
+        }
+        }
+    .wrapperProduct{
+
+        text-align: 'center';
+        border: 1px solid rgba(37, 37, 37, 0.5);
+        // padding: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        // margin: 6px;
+        .paper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin-top: 20px;
+          img {
+              width: 50%;
+              margin: auto;
+                transition: all 0.3s ease;
+
+              &:hover {
+                  transform: scale(1.1)
+              }
+          }
+        }
+        .cardBody{
+            .cardTitle {
+                margin-bottom: 0;
+            }
+            p {
+                margin-top: 6px
+            }
+        }
+        .linkBuy {
+            text-decoration: none;
+            .btnBuy {
+                // background-color: var(--primaryColor-);
+                color: #fff;
+                transition: all 0.3s ease;
+                margin-bottom: 10px;
+                &:hover {
+                    transform: scale(1.05);
+                }
+                
+            }
+        }
+    }
+}

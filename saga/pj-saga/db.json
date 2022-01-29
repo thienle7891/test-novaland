@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "asdasdas",
+      "email": "lpt78999@gmail.com",
+      "phone": "12345678",
+      "address": "adada",
+      "password": "111111",
+      "id": 1
+    },
+    {
+      "name": "asdasdas",
+      "email": "thienle@gmail.com",
+      "phone": "12345678",
+      "address": "2132312asdsad",
+      "password": "111111",
+      "id": 2
+    },
+    {
+      "name": "thien",
+      "email": "thien@gmail.com",
+      "phone": "12345678",
+      "address": "2132312",
+      "password": "111111",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.btnDelete {
+    cursor: pointer;
+    &:hover {
+        opacity: 0.5
+    }
+}
+.root{
+    display: flex;
+    .progressing {
+        margin: 200px auto
+    }
+}
